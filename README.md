@@ -1,1 +1,1 @@
-# here I will upload all the things I try to automate as well as some templates for easy customization
+# this will be a web scraper to watch for offers and track flifht prices
