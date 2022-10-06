@@ -4,7 +4,7 @@ import sys
 
 
 def deleteWatermark():
-    inputFileName = input("Insert Path\n->")
+    inputFileName = input("Insert Path\n->").replace("\"", "")
 
     pdf = pikepdf.open(inputFileName, allow_overwriting_input=True)
 
